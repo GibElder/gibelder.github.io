@@ -3,7 +3,7 @@ body {
   max-width: 1000px;
   margin: auto;
   padding: 20px;
-  background-color: #f5f7fa;
+  background-color: #f0f4f8;
   color: #333;
 }
 
@@ -30,39 +30,27 @@ h2 {
   color: #34495e;
 }
 
-.project {
+section {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
+  padding: 20px;
   margin-bottom: 20px;
-  padding: 15px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-  transition: transform 0.2s ease;
 }
 
-.project:hover {
-  transform: scale(1.02);
+.job, .project {
+  margin-bottom: 20px;
 }
 
-.project h3 {
-  margin: 0 0 5px 0;
-  color: #2c3e50;
+.meta {
+  font-size: 0.9em;
+  color: #666;
 }
 
-.project p {
-  margin: 0 0 10px 0;
-}
-
-.project a {
-  display: inline-block;
-  color: #2980b9;
-  text-decoration: none;
-  font-weight: bold;
-  margin-top: 5px;
-}
-
-.project a:hover {
-  text-decoration: underline;
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
 }
 
 footer {
@@ -75,4 +63,13 @@ footer {
 footer a {
   color: #2980b9;
   text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.project h3, .job h3 {
+  margin: 0 0 5px 0;
+  color: #2c3e50;
 }
