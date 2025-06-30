@@ -1,0 +1,59 @@
+<svg width="150" height="220" viewBox="0 0 150 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Body metallic gradient -->
+    <linearGradient id="bodyGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3fa23f"/>
+      <stop offset="20%" stop-color="#2e8b2e"/>
+      <stop offset="50%" stop-color="#145214"/>
+      <stop offset="80%" stop-color="#0d3c0d"/>
+      <stop offset="100%" stop-color="#081f08"/>
+    </linearGradient>
+    <!-- Shackle chrome gradient -->
+    <linearGradient id="shackleGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eeeeee"/>
+      <stop offset="20%" stop-color="#cccccc"/>
+      <stop offset="50%" stop-color="#aaaaaa"/>
+      <stop offset="80%" stop-color="#888888"/>
+      <stop offset="100%" stop-color="#666666"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shackle -->
+  <path d="M55 80 v-35 a20 20 0 0 1 40 0 v35"
+        fill="none"
+        stroke="url(#shackleGradient)"
+        stroke-width="6"
+        stroke-linecap="round"/>
+
+  <!-- Lock body with metallic gradient -->
+  <rect x="30" y="80" width="90" height="110" rx="15" ry="15"
+        fill="url(#bodyGradient)"
+        stroke="#0a2c0a"
+        stroke-width="2"/>
+
+  <!-- Highlight stripe -->
+  <rect x="35" y="85" width="80" height="10" rx="5" ry="5"
+        fill="white"
+        opacity="0.25"/>
+
+  <!-- Inner shadow for depth -->
+  <rect x="32" y="82" width="86" height="106" rx="13" ry="13"
+        fill="black"
+        opacity="0.05"/>
+
+  <!-- Keyhole -->
+  <circle cx="75" cy="155" r="6" fill="#333"/>
+  <rect x="72" y="155" width="6" height="15" rx="2" fill="#333"/>
+
+  <!-- Initials -->
+  <text
+    x="75"
+    y="125"
+    font-family="Segoe UI, sans-serif"
+    font-size="36"
+    fill="white"
+    text-anchor="middle"
+    dominant-baseline="middle">
+    GE
+  </text>
+</svg>
