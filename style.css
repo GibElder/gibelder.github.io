@@ -65,15 +65,19 @@ ul {
 .project h3 a {
   color: #2c3e50;
   text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px; /* Space between text and icon */
-  flex-wrap: nowrap; /* Prevent wrapping */
 }
 
 .project h3 a:hover {
   color: #2980b9;
   text-decoration: underline;
+}
+
+/* NEW: Make sure the text and icon stay together */
+.project h3 a .link-content {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
 }
 
 .download-button {
