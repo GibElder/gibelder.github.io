@@ -67,7 +67,8 @@ ul {
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px; /* Space between text and icon */
+  flex-wrap: nowrap; /* Prevent wrapping */
 }
 
 .project h3 a:hover {
